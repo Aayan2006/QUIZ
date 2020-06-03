@@ -2,9 +2,6 @@
 <html>
     <head>
         <title>Friendship Level!</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device=width, initial scale=0.5">
-        <meta name="google-site-verification" content="buNU5Ob3rLDUHonI-OKuVbMbSwSesn5UqbcrgwdBTZg" />
         <style>
              section {
                 background: black;
@@ -18,12 +15,21 @@
                 transform: translate(-50%, -50%) }
             div {
                 background:  rgb(202, 200, 200);
-                width: 500px;
-                padding: 20px;
+                width: 1000px;
+                padding: 50px;
                 margin: 0.5px;
             }
+            .container{
+	        width:70%;
+	        margin: 20px auto;
+	        overflow:auto;
+            }
 
-
+                @media only screen and (max-width: 900px){
+                .container{
+                width:90%;
+                }
+            }
 
             body {
                 background: rgb(131, 130, 130);
@@ -65,7 +71,7 @@
     </head>
     <body> 
         <section>
-            <div>
+            <div class="container">
             
                 <h1><b>How much do you know about me?</b></h1>
                 <h3>5 Questions</h3>
